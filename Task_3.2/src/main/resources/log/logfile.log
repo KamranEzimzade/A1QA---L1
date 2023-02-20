@@ -1,0 +1,173 @@
+2022-10-26 20:32:02 INFO  BrowserUtils:37 -  Navigating to main page of demoqa.com
+  2022-10-26 20:32:03 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+  2022-10-26 20:32:03 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+  2022-10-26 20:32:03 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+  2022-10-26 20:32:03 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2dc995f4
+  2022-10-26 20:32:03 DEBUG PlatformDependent0:495 - -Dio.netty.noUnsafe: false
+  2022-10-26 20:32:03 DEBUG PlatformDependent0:998 - Java version: 17
+  2022-10-26 20:32:03 DEBUG PlatformDependent0:136 - sun.misc.Unsafe.theUnsafe: available
+  2022-10-26 20:32:03 DEBUG PlatformDependent0:160 - sun.misc.Unsafe.copyMemory: available
+  2022-10-26 20:32:03 DEBUG PlatformDependent0:192 - sun.misc.Unsafe.storeFence: available
+  2022-10-26 20:32:03 DEBUG PlatformDependent0:235 - java.nio.Buffer.address: available
+  2022-10-26 20:32:03 DEBUG PlatformDependent0:319 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+  2022-10-26 20:32:03 DEBUG PlatformDependent0:384 - java.nio.Bits.unaligned: available, true
+  2022-10-26 20:32:03 DEBUG PlatformDependent0:451 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @594c619b
+  2022-10-26 20:32:03 DEBUG PlatformDependent0:481 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+  2022-10-26 20:32:03 DEBUG PlatformDependent:1159 - sun.misc.Unsafe: available
+  2022-10-26 20:32:03 DEBUG PlatformDependent:1270 - maxDirectMemory: 1000341504 bytes (maybe)
+  2022-10-26 20:32:03 DEBUG PlatformDependent:1289 - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+  2022-10-26 20:32:03 DEBUG PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  2022-10-26 20:32:03 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+  2022-10-26 20:32:03 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  2022-10-26 20:32:03 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+  2022-10-26 20:32:03 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+  2022-10-26 20:32:03 DEBUG PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+  2022-10-26 20:32:03 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  2022-10-26 20:32:03 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  2022-10-26 20:32:03 DEBUG JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+  2022-10-26 20:32:03 DEBUG JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+  2022-10-26 20:32:03 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+  2022-10-26 20:32:03 DEBUG NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+  2022-10-26 20:32:03 DEBUG NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+  2022-10-26 20:32:03 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 8
+  2022-10-26 20:32:03 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 8
+  2022-10-26 20:32:03 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+  2022-10-26 20:32:03 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+  2022-10-26 20:32:03 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+  2022-10-26 20:32:03 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+  2022-10-26 20:32:03 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+  2022-10-26 20:32:03 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+  2022-10-26 20:32:03 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+  2022-10-26 20:32:03 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+  2022-10-26 20:32:03 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+  2022-10-26 20:32:03 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+  2022-10-26 20:32:03 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+  2022-10-26 20:32:03 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+  2022-10-26 20:32:03 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+  2022-10-26 20:32:04 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 134399 (auto-detected)
+  2022-10-26 20:32:04 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+  2022-10-26 20:32:04 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+  2022-10-26 20:32:04 DEBUG NetUtilInitializations:129 - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+  2022-10-26 20:32:04 DEBUG NetUtil:173 - /proc/sys/net/core/somaxconn: 4096
+  2022-10-26 20:32:04 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 20:16:d8:ff:fe:dc:42:da (auto-detected)
+  2022-10-26 20:32:04 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+  2022-10-26 20:32:04 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+  2022-10-26 20:32:04 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2dada88
+  2022-10-26 20:32:04 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+  2022-10-26 20:32:04 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+  2022-10-26 20:32:04 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+  2022-10-26 20:32:04 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+  2022-10-26 20:32:06 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+  2022-10-26 20:32:06 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0xe642a4d62da8d32a
+  2022-10-26 20:32:14 INFO  DriverUtil:21 - Maximizing window size
+  2022-10-26 20:32:14 DEBUG BaseElement:28 - Showing if the element: Main Page unique element is displayed: true
+  2022-10-26 20:32:14 DEBUG BaseElement:47 - Waiting for the presence of element and JavaScript Clicking on element: Alerts&&Frame&&Windows button
+  2022-10-26 20:32:14 INFO  MainTest:38 - Clicking on the Alert, Frame & Windows section on the left to switch to Alerts Page
+  2022-10-26 20:32:14 DEBUG BaseElement:47 - Waiting for the presence of element and JavaScript Clicking on element: Alerts button
+  2022-10-26 20:32:15 DEBUG BaseElement:28 - Showing if the element: Alerts Page unique element is displayed: true
+  2022-10-26 20:32:15 DEBUG BaseElement:47 - Waiting for the presence of element and JavaScript Clicking on element:  'Click me' button to see Alert
+  2022-10-26 20:32:15 INFO  AlertsUtil:17 - Retrieving text from alert
+  2022-10-26 20:32:15 INFO  MainTest:51 - Checking if the text retrieved from alert is equal to the expected text
+  2022-10-26 20:32:15 INFO  AlertsUtil:22 - Clicking OK button on alert
+  2022-10-26 20:32:15 INFO  AlertsUtil:27 - Checking if alert is open
+  2022-10-26 20:32:15 DEBUG BaseElement:56 - Clicking on element:  'Click me' button to see Confirm Box
+  2022-10-26 20:32:15 INFO  AlertsUtil:17 - Retrieving text from alert
+  2022-10-26 20:32:15 INFO  MainTest:61 - Checking if the text retrieved from confirm box alert is equal to the action that is performed on the page
+  2022-10-26 20:32:15 INFO  AlertsUtil:22 - Clicking OK button on alert
+  2022-10-26 20:32:15 INFO  AlertsUtil:27 - Checking if alert is open
+  2022-10-26 20:32:15 DEBUG BaseElement:76 - Waiting for the visibility of element and retreiving text from element: Result text of confirm box: You selected Ok
+  2022-10-26 20:32:15 DEBUG BaseElement:56 - Clicking on element:  'Click me' button to see prompt box alert
+  2022-10-26 20:32:15 INFO  AlertsUtil:17 - Retrieving text from alert
+  2022-10-26 20:32:15 INFO  RandomUtil:14 - Generating random string with a given length
+  2022-10-26 20:32:15 INFO  AlertsUtil:37 - Sending text to alert
+  2022-10-26 20:32:15 INFO  AlertsPage:78 - Sending random text: ZRXBTYRK to the alert
+  2022-10-26 20:32:15 INFO  AlertsUtil:22 - Clicking OK button on alert
+  2022-10-26 20:32:15 DEBUG BaseElement:69 - Retreiving text from element: Result TextField element of prompt box: You entered ZRXBTYRK
+  2022-10-26 20:32:15 INFO  TrimUtil:10 - Triming the given string to leave only the generated random text
+  2022-10-26 20:32:15 INFO  AlertsPage:83 - Text entered in prompt box: ZRXBTYRK
+  2022-10-26 20:32:15 INFO  MainTest:81 - Checking if the text retrieved from alert is equal to the randomly generated text
+  2022-10-26 20:32:15 INFO  BrowserUtils:37 -  Navigating to main page of demoqa.com
+  2022-10-26 20:32:16 DEBUG BaseElement:28 - Showing if the element: Main Page unique element is displayed: true
+  2022-10-26 20:32:16 DEBUG BaseElement:47 - Waiting for the presence of element and JavaScript Clicking on element: Alerts&&Frame&&Windows button
+  2022-10-26 20:32:16 INFO  MainTest:148 - Clicking on the Browser Windows section on the left to switch to the Handles section
+  2022-10-26 20:32:16 DEBUG BaseElement:47 - Waiting for the presence of element and JavaScript Clicking on element: Browser Windows section button
+  2022-10-26 20:32:16 DEBUG BaseElement:28 - Showing if the element: Handles Page unique element is displayed: true
+  2022-10-26 20:32:16 DEBUG BaseElement:63 - Wait for the presence and clickability and click on element: New Tab button element
+  2022-10-26 20:32:17 INFO  BrowserUtils:19 - Switching to another tab
+  2022-10-26 20:32:17 DEBUG BaseElement:83 - Retreiving text with JavaScript Executor from element: Text in new tab: This is a sample page
+  2022-10-26 20:32:17 INFO  BrowserUtils:27 - Closing the current tab
+  2022-10-26 20:32:17 INFO  BrowserUtils:32 - Returning to previous tab
+  2022-10-26 20:32:17 DEBUG BaseElement:28 - Showing if the element: Handles Page unique element is displayed: true
+  2022-10-26 20:32:17 DEBUG BaseElement:47 - Waiting for the presence of element and JavaScript Clicking on element: elements button on left menu
+  2022-10-26 20:32:17 DEBUG BaseElement:47 - Waiting for the presence of element and JavaScript Clicking on element: Links section button element
+  2022-10-26 20:32:17 INFO  MainTest:170 - Clicking on the Links section on the left to switch to the Links Page
+  2022-10-26 20:32:17 DEBUG BaseElement:28 - Showing if the element:  Links Page unique element is displayed: true
+  2022-10-26 20:32:17 INFO  LinksPage:22 - Clicking on Home Page Link
+  2022-10-26 20:32:17 DEBUG BaseElement:63 - Wait for the presence and clickability and click on element:  Links Page unique element
+  2022-10-26 20:32:17 INFO  BrowserUtils:19 - Switching to another tab
+  2022-10-26 20:32:18 DEBUG BaseElement:28 - Showing if the element: Main Page unique element is displayed: true
+  2022-10-26 20:32:18 INFO  BrowserUtils:27 - Closing the current tab
+  2022-10-26 20:32:18 INFO  BrowserUtils:32 - Returning to previous tab
+  2022-10-26 20:32:18 DEBUG BaseElement:28 - Showing if the element:  Links Page unique element is displayed: true
+  2022-10-26 20:32:18 INFO  BrowserUtils:37 -  Navigating to main page of demoqa.com
+  2022-10-26 20:32:19 DEBUG BaseElement:28 - Showing if the element: Main Page unique element is displayed: true
+  2022-10-26 20:32:19 DEBUG BaseElement:47 - Waiting for the presence of element and JavaScript Clicking on element: Alerts&&Frame&&Windows button
+  2022-10-26 20:32:19 INFO  MainTest:91 - Clicking on the Nested Frames section on the left to switch to the Iframes section
+  2022-10-26 20:32:20 DEBUG BaseElement:47 - Waiting for the presence of element and JavaScript Clicking on element: Nested Frames button element
+  2022-10-26 20:32:20 DEBUG BaseElement:28 - Showing if the element: Iframe Page unique element is displayed: true
+  2022-10-26 20:32:20 DEBUG BaseElement:47 - Waiting for the presence of element and JavaScript Clicking on element: Frames button element
+  2022-10-26 20:32:20 DEBUG BaseElement:35 - Waiting for visibility of element and Showing if the element: frame page title element is displayed: true
+  2022-10-26 20:32:20 INFO  MainTest:96 - Checking if the texts retrieved from both iframes are equal to each other
+  2022-10-26 20:32:20 INFO  IframePage:35 - Swithcing to the larger frame
+  2022-10-26 20:32:20 DEBUG BaseElement:69 - Retreiving text from element: larger frame element: This is a sample page
+  2022-10-26 20:32:20 INFO  IframePage:41 - Swithcing to the smaller frame
+  2022-10-26 20:32:20 DEBUG BaseElement:69 - Retreiving text from element: smaller frame element: This is a sample page
+  2022-10-26 20:32:20 INFO  BrowserUtils:37 -  Navigating to main page of demoqa.com
+  2022-10-26 20:32:21 DEBUG BaseElement:28 - Showing if the element: Main Page unique element is displayed: true
+  2022-10-26 20:32:21 INFO  MainTest:110 - Clicking on the Elements section on the left to switch to the Web Tables section
+  2022-10-26 20:32:21 DEBUG BaseElement:47 - Waiting for the presence of element and JavaScript Clicking on element: Element card button
+  2022-10-26 20:32:21 DEBUG BaseElement:47 - Waiting for the presence of element and JavaScript Clicking on element: web tables button
+  2022-10-26 20:32:21 DEBUG BaseElement:28 - Showing if the element: Tables Page unique element is displayed: true
+  2022-10-26 20:32:21 DEBUG BaseElement:56 - Clicking on element: Add new record button
+  2022-10-26 20:32:22 INFO  MainTest:120 - Entering user information in the field to register them on the web table
+  2022-10-26 20:32:22 DEBUG BaseElement:103 - Waiting for the visibility of element and sending text: Jon
+  2022-10-26 20:32:22 DEBUG BaseElement:103 - Waiting for the visibility of element and sending text: Snow
+  2022-10-26 20:32:22 DEBUG BaseElement:103 - Waiting for the visibility of element and sending text: knownothing@gmail.com
+  2022-10-26 20:32:22 DEBUG BaseElement:103 - Waiting for the visibility of element and sending text: 30
+  2022-10-26 20:32:23 DEBUG BaseElement:103 - Waiting for the visibility of element and sending text: 3000
+  2022-10-26 20:32:23 DEBUG BaseElement:103 - Waiting for the visibility of element and sending text: alpha
+  2022-10-26 20:32:23 DEBUG BaseElement:56 - Clicking on element: submit record button
+  2022-10-26 20:32:23 DEBUG BaseElement:69 - Retreiving text from element: first name on web table: Jon
+  2022-10-26 20:32:23 DEBUG BaseElement:69 - Retreiving text from element: last name on web table: Snow
+  2022-10-26 20:32:23 DEBUG BaseElement:69 - Retreiving text from element: email on web table: knownothing@gmail.com
+  2022-10-26 20:32:23 DEBUG BaseElement:69 - Retreiving text from element: age on web table: 30
+  2022-10-26 20:32:23 DEBUG BaseElement:69 - Retreiving text from element: salary on web table: 3000
+  2022-10-26 20:32:23 DEBUG BaseElement:69 - Retreiving text from element: department on web table: alpha
+  2022-10-26 20:32:23 INFO  MainTest:131 - Asserting entered data with the retrieved data
+  2022-10-26 20:32:23 DEBUG BaseElement:63 - Wait for the presence and clickability and click on element: delete record button
+  2022-10-26 20:32:24 INFO  BrowserUtils:37 -  Navigating to main page of demoqa.com
+  2022-10-26 20:32:24 DEBUG BaseElement:28 - Showing if the element: Main Page unique element is displayed: true
+  2022-10-26 20:32:24 INFO  MainTest:110 - Clicking on the Elements section on the left to switch to the Web Tables section
+  2022-10-26 20:32:24 DEBUG BaseElement:47 - Waiting for the presence of element and JavaScript Clicking on element: Element card button
+  2022-10-26 20:32:24 DEBUG BaseElement:47 - Waiting for the presence of element and JavaScript Clicking on element: web tables button
+  2022-10-26 20:32:24 DEBUG BaseElement:28 - Showing if the element: Tables Page unique element is displayed: true
+  2022-10-26 20:32:24 DEBUG BaseElement:56 - Clicking on element: Add new record button
+  2022-10-26 20:32:25 INFO  MainTest:120 - Entering user information in the field to register them on the web table
+  2022-10-26 20:32:25 DEBUG BaseElement:103 - Waiting for the visibility of element and sending text: Buttercup
+  2022-10-26 20:32:25 DEBUG BaseElement:103 - Waiting for the visibility of element and sending text: cumbersnatch
+  2022-10-26 20:32:25 DEBUG BaseElement:103 - Waiting for the visibility of element and sending text: BudapestCandygram@mail.io
+  2022-10-26 20:32:25 DEBUG BaseElement:103 - Waiting for the visibility of element and sending text: 41
+  2022-10-26 20:32:26 DEBUG BaseElement:103 - Waiting for the visibility of element and sending text: 2000
+  2022-10-26 20:32:26 DEBUG BaseElement:103 - Waiting for the visibility of element and sending text: beta
+  2022-10-26 20:32:26 DEBUG BaseElement:56 - Clicking on element: submit record button
+  2022-10-26 20:32:26 DEBUG BaseElement:69 - Retreiving text from element: first name on web table: Buttercup
+  2022-10-26 20:32:26 DEBUG BaseElement:69 - Retreiving text from element: last name on web table: cumbersnatch
+  2022-10-26 20:32:26 DEBUG BaseElement:69 - Retreiving text from element: email on web table: BudapestCandygram@mail.io
+  2022-10-26 20:32:26 DEBUG BaseElement:69 - Retreiving text from element: age on web table: 41
+  2022-10-26 20:32:26 DEBUG BaseElement:69 - Retreiving text from element: salary on web table: 2000
+  2022-10-26 20:32:26 DEBUG BaseElement:69 - Retreiving text from element: department on web table: beta
+  2022-10-26 20:32:26 INFO  MainTest:131 - Asserting entered data with the retrieved data
+  2022-10-26 20:32:27 DEBUG BaseElement:63 - Wait for the presence and clickability and click on element: delete record button
+  2022-10-26 20:32:27 INFO  BaseTest:22 - It's clearing cookies
+  2022-10-26 20:32:27 INFO  BaseTest:28 - Closing the driver
+  
